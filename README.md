@@ -13,3 +13,5 @@
  * откройте проект `byGIS maps for QGIS.qgs` в QGIS;
  
  * рассматривайте официальные карты в комбинации с расширенной информацией из OpenStreetMap!
+ 
+ ![](https://github.com/osm-by/bygis-maps/raw/master/animation.gif)
