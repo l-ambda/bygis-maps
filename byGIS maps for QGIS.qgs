@@ -3,20 +3,26 @@
   <title></title>
   <autotransaction active="0"/>
   <evaluateDefaultValues active="0"/>
-  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+  <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="OSM_Mapnik20161030121105871" name="OSM Mapnik">
       <customproperties/>
     </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="20161012_gp_modified20161030125301937" name="20161012.gp_modified">
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="Минск">
       <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Checked" id="20161012_gp_modified20161030124947949" name="20161012.gp_modified">
-      <customproperties/>
-    </layer-tree-layer>
-    <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="20161012_gp_modified20161030124818589" name="20161012.gp_modified">
-      <customproperties/>
-    </layer-tree-layer>
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="строительство">
+        <customproperties/>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="20100419_schema_electrician20161030163208632" name="2010.04 электроснабжение до 2015 года">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+      <layer-tree-group expanded="1" checked="Qt::Checked" name="генплан">
+        <customproperties/>
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="20161012_gp20161030141327338" name="2016.10 план функционального зонирования">
+          <customproperties/>
+        </layer-tree-layer>
+      </layer-tree-group>
+    </layer-tree-group>
     <layer-tree-layer expanded="1" checked="Qt::Checked" id="OSM_Mapnik20161030120847439" name="OSM Mapnik - мелированный">
       <customproperties/>
     </layer-tree-layer>
@@ -28,10 +34,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>3078158.24329605931416154</xmin>
-      <ymin>7145485.94004060048609972</ymin>
-      <xmax>3079565.58360224822536111</xmax>
-      <ymax>7146943.46701041329652071</ymax>
+      <xmin>3036230.0909330346621573</xmin>
+      <ymin>7125391.02763524744659662</ymin>
+      <xmax>3103276.35256195021793246</xmax>
+      <ymax>7172051.53382050711661577</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -49,12 +55,19 @@
     </destinationsrs>
     <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="20100419_schema_electrician20161030162845622"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_Mapnik20161030121105871"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="20100419_schema_electrician_modified20161030153959018"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_Mapnik20161030120847439"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="20161012_gp_modified20161030130133367"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="20161012_gp_modified20161030124947949"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="20100419_schema_electrician_modified20161030153738695"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="20161012_gp20161030141327338"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="20100419_schema_electrician20161030162400312"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="20161012_gp_modified20161030122719690"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="20161012_gp_modified20161030125301937"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OSM_Mapnik20161030123042383"/>
+      <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="20100419_schema_electrician20161030163208632"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="20161012_gp_modified20161030124818589"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="20161012_gp_modified20161030123004107"/>
       <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="20161012_gp_modified20161030124225287"/>
@@ -65,9 +78,8 @@
       <item>OSM_Mapnik20161030120847439</item>
       <item>OSM_Mapnik20161030121105871</item>
       <item>OSM_Mapnik20161030123042383</item>
-      <item>20161012_gp_modified20161030124818589</item>
-      <item>20161012_gp_modified20161030124947949</item>
-      <item>20161012_gp_modified20161030125301937</item>
+      <item>20161012_gp20161030141327338</item>
+      <item>20100419_schema_electrician20161030163208632</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -76,21 +88,22 @@
         <legendlayerfile isInOverview="0" layerid="OSM_Mapnik20161030121105871" visible="1"/>
       </filegroup>
     </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="20161012.gp_modified" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="20161012_gp_modified20161030125301937" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="20161012.gp_modified" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="20161012_gp_modified20161030124947949" visible="1"/>
-      </filegroup>
-    </legendlayer>
-    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="20161012.gp_modified" showFeatureCount="0">
-      <filegroup open="true" hidden="false">
-        <legendlayerfile isInOverview="0" layerid="20161012_gp_modified20161030124818589" visible="0"/>
-      </filegroup>
-    </legendlayer>
+    <legendgroup open="true" checked="Qt::Checked" name="Минск">
+      <legendgroup open="true" checked="Qt::Checked" name="строительство">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="2010.04 электроснабжение до 2015 года" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="20100419_schema_electrician20161030163208632" visible="1"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
+      <legendgroup open="true" checked="Qt::Checked" name="генплан">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="2016.10 план функционального зонирования" showFeatureCount="0">
+          <filegroup open="true" hidden="false">
+            <legendlayerfile isInOverview="0" layerid="20161012_gp20161030141327338" visible="1"/>
+          </filegroup>
+        </legendlayer>
+      </legendgroup>
+    </legendgroup>
     <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OSM Mapnik - мелированный" showFeatureCount="0">
       <filegroup open="true" hidden="false">
         <legendlayerfile isInOverview="0" layerid="OSM_Mapnik20161030120847439" visible="1"/>
@@ -105,10 +118,10 @@
   <mapcanvas>
     <units>degrees</units>
     <extent>
-      <xmin>3067.48222591689409455</xmin>
-      <ymin>-2021.08656824346689973</ymin>
-      <xmax>3175.48715430696756812</xmax>
-      <ymax>-1898.3055740173876984</ymax>
+      <xmin>5326.50491028128271864</xmin>
+      <ymin>-6255.65997817653078528</ymin>
+      <xmax>5946.81741028128271864</xmax>
+      <ymax>-5817.09747817653078528</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>0</projections>
@@ -128,32 +141,33 @@
     <layer_coordinate_transform_info/>
   </mapcanvas>
   <projectlayers>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
-        <xmin>3038068.09520195890218019</xmin>
-        <ymin>7127552.42368720844388008</ymin>
-        <xmax>3101836.71493531437590718</xmax>
-        <ymax>7171913.20263215154409409</ymax>
+        <xmin>3042516.98357778880745173</xmin>
+        <ymin>7130065.20612954720854759</ymin>
+        <xmax>3101879.89066976401954889</xmax>
+        <ymax>7172096.01705785840749741</ymax>
       </extent>
-      <id>20161012_gp_modified20161030124818589</id>
-      <datasource>./2016/10/генплан Минска/20161012.gp_modified.tif</datasource>
+      <id>20100419_schema_electrician20161030163208632</id>
+      <datasource>./2010/04/20100419.schema.electrician.mbtiles</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>20161012.gp_modified</layername>
+      <layername>2010.04 электроснабжение до 2015 года</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=merc +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
-          <srsid>100000</srsid>
-          <srid>0</srid>
-          <authid>USER:100000</authid>
-          <description> * Generated CRS (+proj=merc +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
           <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym></ellipsoidacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
           <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
       <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
         <property key="identify/format" value="Value"/>
       </customproperties>
       <provider>gdal</provider>
@@ -166,56 +180,52 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-          <rasterTransparency/>
-          <redContrastEnhancement>
-            <minValue>22</minValue>
-            <maxValue>255</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </redContrastEnhancement>
-          <greenContrastEnhancement>
-            <minValue>3</minValue>
-            <maxValue>255</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </greenContrastEnhancement>
-          <blueContrastEnhancement>
-            <minValue>0</minValue>
-            <maxValue>255</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </blueContrastEnhancement>
+        <rasterrenderer opacity="1" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency>
+            <threeValuePixelList>
+              <pixelListEntry red="255" blue="255" green="255" percentTransparent="100"/>
+              <pixelListEntry red="250" blue="250" green="250" percentTransparent="100"/>
+              <pixelListEntry red="194" blue="194" green="194" percentTransparent="100"/>
+              <pixelListEntry red="149" blue="149" green="149" percentTransparent="100"/>
+              <pixelListEntry red="252" blue="252" green="252" percentTransparent="100"/>
+              <pixelListEntry red="200" blue="200" green="200" percentTransparent="100"/>
+              <pixelListEntry red="186" blue="186" green="186" percentTransparent="100"/>
+            </threeValuePixelList>
+          </rasterTransparency>
         </rasterrenderer>
         <brightnesscontrast brightness="0" contrast="0"/>
         <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
+        <rasterresampler maxOversampling="2" zoomedOutResampler="bilinear" zoomedInResampler="bilinear"/>
       </pipe>
       <blendMode>0</blendMode>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
-        <xmin>3037761.57863350491970778</xmin>
-        <ymin>7127488.83986013568937778</ymin>
-        <xmax>3101841.13645523227751255</xmax>
-        <ymax>7171970.3622353645041585</ymax>
+        <xmin>3038004.03648669784888625</xmin>
+        <ymin>7127478.82501911465078592</ymin>
+        <xmax>3101857.61899042688310146</xmax>
+        <ymax>7171917.40233840886503458</ymax>
       </extent>
-      <id>20161012_gp_modified20161030124947949</id>
-      <datasource>./2016/10/генплан Минска/20161012.gp_modified.tif</datasource>
+      <id>20161012_gp20161030141327338</id>
+      <datasource>./2016/10/генплан Минска/20161012.gp.mbtiles</datasource>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>20161012.gp_modified</layername>
+      <layername>2016.10 план функционального зонирования</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=merc +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
-          <srsid>100000</srsid>
-          <srid>0</srid>
-          <authid>USER:100000</authid>
-          <description> * Generated CRS (+proj=merc +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +a=6378137 +b=6378137 +units=m +no_defs)</description>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
           <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym></ellipsoidacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
           <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
       <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
         <property key="identify/format" value="Value"/>
       </customproperties>
       <provider>gdal</provider>
@@ -228,82 +238,20 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+        <rasterrenderer opacity="1" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
           <rasterTransparency/>
           <redContrastEnhancement>
-            <minValue>0</minValue>
+            <minValue>17</minValue>
             <maxValue>255</maxValue>
             <algorithm>StretchToMinimumMaximum</algorithm>
           </redContrastEnhancement>
           <greenContrastEnhancement>
-            <minValue>0</minValue>
+            <minValue>5</minValue>
             <maxValue>255</maxValue>
             <algorithm>StretchToMinimumMaximum</algorithm>
           </greenContrastEnhancement>
           <blueContrastEnhancement>
-            <minValue>0</minValue>
-            <maxValue>255</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </blueContrastEnhancement>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <extent>
-        <xmin>3038004.03648669878020883</xmin>
-        <ymin>7127481.75736362300813198</ymin>
-        <xmax>3101859.02601345209404826</xmax>
-        <ymax>7171917.40233841445297003</ymax>
-      </extent>
-      <id>20161012_gp_modified20161030125301937</id>
-      <datasource>./2016/10/генплан Минска/20161012.gp_modified.tif</datasource>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>20161012.gp_modified</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=merc +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +a=6378137 +b=6378137 +units=m +no_defs</proj4>
-          <srsid>100000</srsid>
-          <srid>0</srid>
-          <authid>USER:100000</authid>
-          <description> * Generated CRS (+proj=merc +lon_0=0 +lat_ts=0 +x_0=0 +y_0=0 +a=6378137 +b=6378137 +units=m +no_defs)</description>
-          <projectionacronym>merc</projectionacronym>
-          <ellipsoidacronym></ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Value"/>
-      </customproperties>
-      <provider>gdal</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-        <noDataList bandNo="2" useSrcNoData="0"/>
-        <noDataList bandNo="3" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
-          <rasterTransparency/>
-          <redContrastEnhancement>
-            <minValue>0</minValue>
-            <maxValue>255</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </redContrastEnhancement>
-          <greenContrastEnhancement>
-            <minValue>0</minValue>
-            <maxValue>255</maxValue>
-            <algorithm>StretchToMinimumMaximum</algorithm>
-          </greenContrastEnhancement>
-          <blueContrastEnhancement>
-            <minValue>0</minValue>
+            <minValue>1</minValue>
             <maxValue>255</maxValue>
             <algorithm>StretchToMinimumMaximum</algorithm>
           </blueContrastEnhancement>
@@ -440,15 +388,15 @@
         <property key="zmin" value="0"/>
       </customproperties>
     </maplayer>
-    <maplayer minimumScale="inf" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <extent>
         <xmin>0</xmin>
-        <ymin>-3383</ymin>
-        <xmax>4878</xmax>
+        <ymin>-7017</ymin>
+        <xmax>9925</xmax>
         <ymax>0</ymax>
       </extent>
-      <id>Raster20161030122356797</id>
-      <datasource>./2016/10/генплан Минска/20161012.gp.jpg</datasource>
+      <id>Raster20161030153550747</id>
+      <datasource>./2010/04/20100419.schema.electrician.png</datasource>
       <keywordList>
         <value></value>
       </keywordList>
@@ -466,7 +414,6 @@
         </spatialrefsys>
       </srs>
       <customproperties>
-        <property key="embeddedWidgets/count" value="0"/>
         <property key="identify/format" value="Value"/>
       </customproperties>
       <provider>gdal</provider>
@@ -479,10 +426,10 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <pipe>
-        <rasterrenderer opacity="1" alphaBand="0" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
           <rasterTransparency/>
           <redContrastEnhancement>
-            <minValue>0</minValue>
+            <minValue>183</minValue>
             <maxValue>255</maxValue>
             <algorithm>StretchToMinimumMaximum</algorithm>
           </redContrastEnhancement>
